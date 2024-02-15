@@ -15,3 +15,9 @@
 
 
 
+- name: Install Nginx
+  hosts: Web
+  become: true
+  roles:
+    - sample
+
