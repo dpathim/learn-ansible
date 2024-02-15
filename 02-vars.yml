@@ -1,0 +1,11 @@
+- name: Variable
+  hosts: Web
+  vars:
+    URL: google.com
+    tasks:
+      - name: Print Variable
+        ansible.builtin.debug:
+          msg: URL {{ URL }}
+
+
+# In ansible we will access the variable by giving two flower brackets.
