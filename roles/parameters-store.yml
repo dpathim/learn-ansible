@@ -1,5 +1,5 @@
-- name : Demo for AWS Parameter store
-  hosts : localhost
+- name: Demo for AWS Parameter store
+  hosts: localhost
   connection: local
   tasks:
     - name: recommend to use with aws_ssm lookup plugin
